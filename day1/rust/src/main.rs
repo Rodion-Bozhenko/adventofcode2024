@@ -4,7 +4,7 @@ use std::{
 };
 
 fn main() {
-    let input_file = File::open("input.txt").expect("failed to open file");
+    let input_file = File::open("../input.txt").expect("failed to open file");
     let reader = BufReader::new(input_file);
 
     let mut first_list: Vec<u32> = Vec::new();
